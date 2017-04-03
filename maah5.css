@@ -1,0 +1,133 @@
+/*
+   New Perspectives on HTML and CSS
+   Tutorial 9
+   Case Problem 2
+
+   The Gargoyle Collection HTML5 Style Sheet
+
+   Author: 
+   Date:   
+
+   Filename:         maah5.css
+   Supporting Files: 
+
+*/
+
+body
+{
+	background:url(gbar.jpg);
+	width:810px;
+}
+
+a:active
+{
+	color:white;
+}
+
+a:visited
+{
+	color:white;
+}
+
+a:link
+{
+	color:white;
+}
+
+nav
+{
+	display:block;
+	width:165px;
+	float:left;
+}
+
+nav h4
+{
+	color:yellow;
+	line-height:18px;
+}
+
+nav ul
+{
+	list-style-type:none;
+	float:left;
+	padding:0px;
+	margin:0px;
+	line-height:7.5px;
+}
+
+nav ul li
+{
+	line-height:20px;
+}
+
+nav li
+{
+	float:left;
+}
+
+#main
+{
+	float:left;
+	width:645px;
+}
+
+#main h4
+{
+	text-align:left;
+}
+
+header
+{
+	text-align:center;
+}
+
+
+article
+{
+	width:320px;
+	float:right;
+	
+}
+#div1,#div2
+{
+	width:320px;
+	float:right;
+}
+
+#div1
+{
+	background-color:yellow;
+	color:black;
+}
+
+#div1 h4
+{
+	color:black;
+	text-align:center;
+}
+
+article img, #aside1 img
+{
+	float:right;
+}
+
+#aside1
+{
+	width:320px;
+}
+
+#aside1 h4
+{
+	color:red;
+	text-align:right;
+}
+
+#div2 h4, #aside1 h4
+{
+	text-align:center;
+	color:red;
+}
+
+
+ 

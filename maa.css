@@ -1,0 +1,106 @@
+/*
+   New Perspectives on HTML and CSS
+   Tutorial 9
+   Case Problem 2
+
+   Middle Age Arts Style Sheet
+
+   Author: Ashwini Badiger   
+   Date:    10/27/2015
+
+   Filename:         maa.css
+   Supporting Files: 
+
+*/
+
+img
+{
+	border-width: 0px;
+}
+ 
+body
+{
+	background:url(gbar.jpg);
+}
+
+a:active
+{
+	color:white;
+}
+
+a:visited
+{
+	color:white;
+}
+
+a:link
+{
+	color:white;
+}
+  
+#leftcol
+{
+	width:165px;
+}
+
+body table
+{
+	 width:810px;
+}
+
+#article1 h4
+{
+	color:red;
+} 
+
+#aside1 
+{
+	background:yellow;
+	width:320px;
+}
+
+#article1 h4,#aside2 h4
+{	
+	color:red;
+}
+
+
+#leftcol h4
+{
+	color:yellow;
+}
+
+#rightcol
+{
+	width:645px;
+}
+
+#rightcol table
+{
+	width:645px;
+}
+
+#rightcol h4
+{
+	text-align:center;
+}
+
+#article1 img, #aside2 img
+{
+	float:right;
+}
+
+#article1
+{
+	width:320px;
+}
+
+#gutter 
+{
+	width:5px;
+}
+
+#aside2
+{
+	 width:320px;
+}
